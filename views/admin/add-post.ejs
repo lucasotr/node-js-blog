@@ -1,0 +1,13 @@
+<a href="/dashboard">&larr; Voltar</a>
+<div class="admin-title">
+    <h2>Adicionar Nova Postagem</h2>
+</div>
+
+<form action="/add-post" method="POST">
+    <label for="title"><b>Título</b></label>
+    <input type="text" name="title" placeholder="Insira o título">
+    
+    <label for="body"><b>Corpo</b></label>
+    <textarea name="body" cols="50" rows="10" placeholder="Insira o texto"></textarea>
+    <input type="submit" value="Postar" class="btn">
+</form>

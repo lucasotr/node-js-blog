@@ -1,0 +1,22 @@
+<header class="header">
+    <a href="/" class="header__logo">Sefras</a>
+
+    <nav class="header__nav">
+        <ul>
+            <li>
+                <a href="/" class="<%= isActiveRoute('/', currentRoute) %>">Inicio</a>
+            </li>
+            <li>
+                <a href="/about" class="<%= isActiveRoute('/about', currentRoute) %>">Sobre</a>
+            </li>
+            <li>
+                <a href="/contact" class="<%= isActiveRoute('/contact', currentRoute) %>">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__button">
+        <button class="searchBtn" aria-expanded="false">
+            Buscar
+        </button>
+    </div>
+</header>
